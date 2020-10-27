@@ -1,0 +1,12 @@
+  $('#json').on('click',function(){
+    $("#example_one").tableHTMLExport({type:'json',filename:'sample.json'});
+  })
+  $('#csv').on('click',function(){
+    $("#example_one").tableHTMLExport({type:'csv',filename:'sample.csv'});
+  })
+  $('#pdf').on('click',function(){
+    $("#example_one").tableHTMLExport({type:'pdf',filename:'sample.pdf'});
+  })
+  $('#sql').on('click',function(){
+    $("#example_one").tableHTMLExport({type:'sql',filename:'sample.sql'});
+  })

@@ -1,0 +1,171 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.spinner{
+		left:50%;
+		top:25%;
+	}
+	.logo{
+		margin-top: 12px;
+	}
+	.logo img{
+	  width: 100%;
+	}
+	.blog-box {
+		margin-bottom: 60px;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	.spinner{
+		margin: 40% auto 0;
+	}
+	.logo{
+		margin-top: 12px;
+	}
+	.logo img{
+	  width: 80%;
+	}
+	.main-menu li > a {
+		font-size: 12px;
+		line-height: 20px;
+		padding: 20px 5px;
+	}
+	.welcome-area{
+		padding:15px;
+	}
+	.regular .slick-prev, .slick-next {
+	    width: 35px;
+	    height: 35px;
+	}
+	.regular .slick-next {
+	    right: 15px;
+	}
+	.regular .slick-prev {
+	    left: 15px;
+	}
+	.blog-box {
+		margin-bottom: 60px;
+	}
+	.comments-form {
+		margin-bottom: 60px;
+	}
+}	
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+	.spinner{
+		margin: 80% auto 0;
+	}
+	.bit-title p {
+		padding: 0 6%;
+	}	
+	.logo{
+		margin-top: 10px;
+	}
+	.logo img{
+	  width: 50%;
+	}
+	.mean-container a.meanmenu-reveal {
+		top: 5px;
+	}
+	.banner-area,
+	.particles-area{
+		padding-top: 150px;
+		padding-bottom: 120px;
+	}
+	.single-slider-1,
+	.single-slider-2,
+	.single-slider-3{
+		padding-top: 150px;
+		padding-bottom:120px;
+	}
+	.slider-text{
+		margin-left: 24px;
+	}
+	.regular .slick-next {
+	    right: 37%;
+	    top:90%;
+	}
+	.regular .slick-prev {
+	    left: 37%;
+	    top:90%;
+	}
+	.welcome-text h1 {
+		font-size: 20px;
+	}
+	.features-text h2 {
+		font-size: 24px;
+	}
+	.features-img {
+		width: 300px;
+		height: 300px;
+		margin: 50px 0px 0px -10px;
+	}
+	.team-area{
+		margin-bottom: 60px;
+	}
+	.invest-text h3 {
+		font-size: 21px;
+		color: #f7f7a5;
+	}
+	.invest-text p {
+		padding: 0 5%;
+	}
+	.client-review p {
+		padding: 0 7%;
+	}
+	.blog-box {
+		margin-bottom: 60px;
+	}
+	.blog-overlay .link{
+		left: 43%;
+	}
+	.blog-admin .admin ul li {
+		margin-right: 5px;
+		font-size: 13px;
+	}
+	.blog-admin .admin ul li i {
+		font-size: 14px;
+		margin-right: 5px;
+	}
+	.footer-bottom{
+		margin-bottom: 30px;
+	}
+	.comments-form {
+		margin-bottom: 60px;
+	}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	.spinner{
+		margin: 70% auto 0;
+	}
+	.bit-title {
+		margin-bottom: 40px;
+		text-transform: capitalize;
+	}
+	.banner-area,
+	.particles-area{
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	.single-slider-1,
+	.single-slider-2,
+	.single-slider-3{
+		padding-top: 150px;
+		padding-bottom:150px;
+	}
+	.regular .slick-next {
+	    right: 39%;
+	    top:90%;
+	}
+	.regular .slick-prev {
+	    left: 39%;
+	    top:90%;
+	}
+	.welcome-text h1 {
+		font-size: 24px;
+	}
+	.blog-overlay .link{
+	    left: 47%;
+	}
+}

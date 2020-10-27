@@ -1,0 +1,48 @@
+.head_top {
+    padding: 20px;
+    width: 80%;
+    background: white;
+    border-radius: 6px;
+}
+
+label {
+    font-size: 22px;
+    letter-spacing: 0.5px;
+}
+.form-control {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    font-size: 14px !important;
+    padding: 9px !important;
+    font-size: 17px !important;
+}
+button.btn.btn-primary.btn-block {
+    padding: 5px !important;
+    font-size: 20px !important;
+    width: 50% !important;
+    margin: 0 auto !important;
+    box-shadow: 0px 4px 14px 0px rgba(4, 17, 84, 0.29) !important;
+}
+button.btn.btn-primary.btn-block:hover{
+	box-shadow: none !important;
+}
+.logo25{
+    width: 80% !important;
+}
+.fa.fa-reply {
+    font-size: 20px !important;
+    border-right: 1px solid black !important;
+    padding-right: 5px !important;
+}
+.fa.fa-envelope-open-o {
+    font-size: 20px !important;    
+    padding-right: 5px !important;
+}
+.fa.fa-eye {
+    font-size: 20px !important;
+    border-right: 1px solid black !important;
+    padding-right: 5px !important;
+}
+

@@ -1,0 +1,17 @@
+/** ADD YOUR AWESOME CODES HERE **/
+.boxes-container {
+  background-color: #f8442a;
+  padding: 1rem;
+}
+.boxes-container h1 {
+  color: white;
+}
+.boxes-container .boxes .box {
+  padding: 1rem;
+  border-right: 2px solid whitesmoke;
+  /*max-width: 300px;*/
+}
+.boxes-container .boxes {
+  display: flex;
+  justify-content: center;
+}
